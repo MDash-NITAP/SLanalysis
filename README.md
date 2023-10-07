@@ -1,8 +1,11 @@
 # Steps to Run the Software
+
 1. Download Files:
 This repository contains an application file larger than 100MB. To download the Git repository containing large files, please make sure that Git-LFS was installed beforehand. Otherwise, the repository you cloned will only contain the shortcuts of the large files. Installing Git-LFS after the repository is cloned will not help. git pull and git fetch will not automatically replace the shortcuts to large files for you. If you have already cloned the repository, just delete the repository, make sure Git-LFS is correctly installed, and clone again. In this way, the large files will be cloned correctly.
  
-    1. Prepare a folder in the local storage for "git clone":
+    1. Download and install “Git Large File Storage”  in local system from Git’s official website- https://git-lfs.com/
+       (Ignore if Git already installed in local system.)
+    3. Prepare a folder in the local storage for "git clone":
         1. Make a new folder
         2. Click on "Git Bash Here" from the right mouse Click Drop-down while being inside the folder
         3. Execute below commands one-by-one in the Git-Bash
@@ -10,12 +13,12 @@ This repository contains an application file larger than 100MB. To download the 
            2. $ git lfs install
            3. $ git lfs env
            4. $ git lfs clone https://github.com/MDash-NITAP/SLanalysis.git
-    2. After successful cloning:
+    4. After successful cloning:
        
-           Move all sample files to the new folder named "sample_files"
+           Move all sample files to the new folder named "sample_inputFiles."
        
-    4. Run the application
-    5. The application opens up within a minute, creating a new folder named "Supplimentary".
+    5. Run the application
+    6. The application opens up within a minute, creating a new folder named "Supplimentary".
 
 # SLanalysis
 This software evaluates ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2023, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 un-translated regions"
