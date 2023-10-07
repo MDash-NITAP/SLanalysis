@@ -14,9 +14,9 @@
 ## Approach- 2: Cloning Git Repository link
 This repository contains an application file larger than 100MB. To download the Git repository containing large files, please make sure that Git-LFS was installed beforehand. Otherwise, the repository you cloned will only contain the shortcuts of the large files. Installing Git-LFS after the repository is cloned will not help. git pull and git fetch will not automatically replace the shortcuts to large files for you. If you have already cloned the repository, just delete the repository, make sure Git-LFS is correctly installed, and clone again. In this way, the large files will be cloned correctly.
  
-   1. Download and install GitHub for the local system from https://git-scm.com/downloads
+   1. Download and install GitHub for the local system from https://git-scm.com/downloads  
       (Ignore if Git already installed in local system.)
-   3. Download and install “Git Large File Storage”  in local system from Git’s official website- https://git-lfs.com/
+   3. Download and install “Git Large File Storage”  in local system from Git’s official website- https://git-lfs.com/  
       (Ignore if Git-lfs already installed in local system.)
    4. Prepare a folder in the local storage for "git clone":
         1. Make a new folder
