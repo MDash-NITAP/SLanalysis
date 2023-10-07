@@ -1,5 +1,6 @@
 # Steps to Run the Software
 
+
 ## Approach- 1: Download Zip
 1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
 2. Select Download Zip option from the drop-down menu for Code<>
@@ -8,6 +9,7 @@
    b. Download Raw from the top-right corner of the panel, giving descriptions of the file.
 4. Extract the Zip folder
 5. Replace the ( Zip folder -> application file )  with the downloaded Raw exe file.
+
 
 
 ## Approach- 2: Cloning Git Repository link
