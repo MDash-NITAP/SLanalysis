@@ -1,5 +1,17 @@
 # Steps to Run the Software
 
+## Approach- 1: Download Zip
+1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
+2. Select Download Zip option from the drop-down menu for Code<>
+3. For downloading the "SLanalysis.exe" file:
+   a. Select the exe file
+   b. Download Raw from the top-right corner of the panel, giving descriptions of the file.
+4. Extract the Zip folder
+5. Replace the ( Zip folder -> application file )  with the downloaded Raw exe file.
+
+
+## Approach- 2: Cloning Git Repository link
+
 1. Download Files:
 This repository contains an application file larger than 100MB. To download the Git repository containing large files, please make sure that Git-LFS was installed beforehand. Otherwise, the repository you cloned will only contain the shortcuts of the large files. Installing Git-LFS after the repository is cloned will not help. git pull and git fetch will not automatically replace the shortcuts to large files for you. If you have already cloned the repository, just delete the repository, make sure Git-LFS is correctly installed, and clone again. In this way, the large files will be cloned correctly.
  
@@ -13,12 +25,8 @@ This repository contains an application file larger than 100MB. To download the 
            2. $ git lfs install
            3. $ git lfs env
            4. $ git lfs clone https://github.com/MDash-NITAP/SLanalysis.git
-    4. After successful cloning:
-       
-           Move all sample files to the new folder named "sample_inputFiles."
-       
-    5. Run the application
-    6. The application opens up within a minute, creating a new folder named "Supplimentary".
+    4. Run the application after successful cloning       
+    5. The application opens up within a minute, creating a new folder named "Supplimentary".
 
 # SLanalysis
 This software evaluates ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2023, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 un-translated regions"
