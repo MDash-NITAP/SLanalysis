@@ -1,35 +1,35 @@
 # Steps to Run the Software
 
-
 ## Approach- 1: Download Zip
-1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
-2. Select Download Zip option from the drop-down menu for Code<>
-3. For downloading the "SLanalysis.exe" file:
-   a. Select the exe file
-   b. Download Raw from the top-right corner of the panel, giving descriptions of the file.
-4. Extract the Zip folder
-5. Replace the ( Zip folder -> application file )  with the downloaded Raw exe file.
+   1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
+   2. Select Download Zip option from the drop-down menu for Code<>
+   3. For downloading the "SLanalysis.exe" file:
+      a. Select the exe file
+      b. Download Raw from the top-right corner of the panel, giving descriptions of the file.
+   4. Extract the Zip folder
+   5. Replace the ( Zip folder -> application file )  with the downloaded Raw exe file.
 
 
 
 ## Approach- 2: Cloning Git Repository link
-
 This repository contains an application file larger than 100MB. To download the Git repository containing large files, please make sure that Git-LFS was installed beforehand. Otherwise, the repository you cloned will only contain the shortcuts of the large files. Installing Git-LFS after the repository is cloned will not help. git pull and git fetch will not automatically replace the shortcuts to large files for you. If you have already cloned the repository, just delete the repository, make sure Git-LFS is correctly installed, and clone again. In this way, the large files will be cloned correctly.
  
-1. Download and install GitHub for the local system from https://git-scm.com/downloads
+   1. Download and install GitHub for the local system from https://git-scm.com/downloads
        (Ignore if Git already installed in local system.)
-2. Download and install “Git Large File Storage”  in local system from Git’s official website- https://git-lfs.com/
+   2. Download and install “Git Large File Storage”  in local system from Git’s official website- https://git-lfs.com/
        (Ignore if Git already installed in local system.)
-3. Prepare a folder in the local storage for "git clone":
+   3. Prepare a folder in the local storage for "git clone":
         1. Make a new folder
         2. Click on "Git Bash Here" from the right mouse Click Drop-down while being inside the folder
         3. Execute below commands one-by-one in the Git-Bash
+           
            1. $ git init
            2. $ git lfs install
            3. $ git lfs env
            4. $ git lfs clone https://github.com/MDash-NITAP/SLanalysis.git
-4. Run the application after successful cloning       
-5. The application opens up within a minute, creating a new folder named "Supplimentary".
+              
+   4. Run the application after successful cloning       
+   5. The application opens up within a minute, creating a new folder named "Supplimentary".
 
 # SLanalysis
 This software evaluates ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2023, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 un-translated regions"
