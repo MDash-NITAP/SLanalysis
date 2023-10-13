@@ -1,4 +1,4 @@
-# Steps to Run the Software
+# Installation
 
 ## Approach- 1: Download Zip
    1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
