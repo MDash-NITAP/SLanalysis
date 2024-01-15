@@ -4,10 +4,12 @@
    1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
    2. Select Download Zip option from the drop-down menu for Code<>
    3. For downloading the "SLanalysis.exe" file:
-      a. Select the exe file
+
+      a. Select the exe file      
       b. Download Raw from the top-right corner of the panel, giving descriptions of the file.
-   4. Extract the Zip folder
-   5. Replace the ( Zip folder -> application file )  with the downloaded Raw exe file.
+      
+   5. Extract the Zip folder
+   6. Replace the ( Zip folder -> application file )  with the downloaded Raw exe file.
 
 
 
