@@ -39,7 +39,8 @@ The objective of this software is to calculate ti/tv ratio of the secondary stru
 
 # How it works:
 One or more than one pair of files gets uploaded to the software., i.e.
-    1. Gene file,containing A, T/U, G, C ; 
+    1. Gene file,containing A, T/U, G, C ;
+    
     2. Respective stem-loop anotation file, from NCBI containing dots[.] and brackets[ ( , ) ]
     
 Upon execution, the result section activates and the software gives three outputs as display options where user can visualize ti/tv ratio as an output.
