@@ -390,6 +390,8 @@ def process(gene_names,path):
             else:
                 CCount += 1
                 lee = li.upper()
+                if lee == 'U':
+                    lee = 'T'
                 df.write(',' + lee.rstrip('\n'))
 
             # print("Number of columns",CCount)
