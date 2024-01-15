@@ -45,7 +45,7 @@ One or more than one pair of files gets uploaded to the software., i.e.
     1. Gene file,containing A, T/U, G, C ;    
     2. Respective stem-loop anotation file, from NCBI containing dots[.] and brackets[ ( , ) ]
     
-Upon execution, the result section activates and the software gives three outputs as display options where user can visualize ti/tv ratio as an output.
+Upon execution, the result section activates and the software gives three outputs as display options where user can visualize ti/tv ratio as an output. However, the results are available in the combination of A,T,G,C ; aligned with the prevailing practices of incorporating T in RNA sequences by publicly accessible gene banks.
 
 # How to use:
 On running 'SLanalysis' software, a window opens-up within a minute.
