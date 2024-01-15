@@ -32,21 +32,21 @@ This repository contains an application file larger than 100MB. To download the 
    6. The application opens up within a minute, creating a new folder named "Supplimentary".
 
 # SLanalysis
-This software evaluates ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2023, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 un-translated regions"
+This software evaluates ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2024, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 un-translated regions"
 
 # What is SLanalysis:
-The objective of this software is to calculate ti/tv ratio in the secondary structure sequence file.
+The objective of this software is to calculate ti/tv ratio of the secondary structure from its sequence file.
 
 # How it works:
 One or more than one pair of files gets uploaded to the software., i.e.
-    1. Gene file, 
-    2. Respective stem-loop anotation file, from NCBI
+    1. Gene file,containing A, T/U, G, C ; 
+    2. Respective stem-loop anotation file, from NCBI containing dots[.] and brackets[ ( , ) ]
     
 Upon execution, the result section activates and the software gives three outputs as display options where user can visualize ti/tv ratio as an output.
 
 # How to use:
 On running 'SLanalysis' software, a window opens-up within a minute.
-It has two sections, consisting of several buttons and text-boxes.
+It has a "Menu Bar" along with two sections, consisting of several buttons and text-boxes.
 In the first section, files can be uploaded, executed and cleared from the text (input) boxes.
 In the second section, the results can be visualized by interacting with their respective buttons.
 By default, the Result Section will be deactive. It will be activated with availability of the result files in the program's present working directory.
@@ -57,7 +57,7 @@ Both of the sections' work is as follows:
     ### First Section:
     
     'Upload' Button (gene file) - 
-        Uploads a gene file in fasta/text format.        
+        Uploads a gene(RNA/DNA) sequence file in fasta/text format.        
         Checks if the file is in fasta format, i.e. starts with '>strain-name' 
         if not in fasta-format, gives a message to give input a fasta file again
         
@@ -80,7 +80,7 @@ Both of the sections' work is as follows:
                                                                         |
                             -------------------------------------------------------------------------
                             |                                                                       |
-                        New Button -                                                           Add File Button -
+                  New Button (Menu Bar) -                                              Add File Button (First Section) -
         
             1. It can be used to calculate ti/tv for a single file.             1. This button adds the execution result of another pair 
             2. It starts over from the beginning by clearing                    of sequence file and stem-loop file.
