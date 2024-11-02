@@ -148,6 +148,9 @@ All the supporting files required to verify the generated result, will be availa
             (Please Remove any trailing spaces from line 2. No line - 3 should be there, even if it's blank)
 
             The format of the dot-bracket file is
+               
+               1 UTR3
+               2 ((......(((.........(((((((((............(((..((.(((((((((....((.((...((......))..))))...))))).))))...))....)))...............))))))))).........))).......))
             
          
         The number after the name of the file indicates the sequence of executed files. 
