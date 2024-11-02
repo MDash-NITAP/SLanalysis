@@ -139,7 +139,17 @@ All the supporting files required to verify the generated result, will be availa
         and for two entries, it will show sequence_file1.csv for first entry & sequence_file2.csv for the second entry.
     
     stem_loop1.csv-
-        This is the .csv format of given stem-loop anotation file.
+        This is the .csv format of the given stem-loop annotation file(.txt).
+        
+        
+           The stem-loop annotation file(.txt) should contain only 2 lines.
+            Line 1 - Description/ Name
+            Line 2 - The complete dot-bracket sequence
+            (Please Remove any trailing spaces from line 2. No line - 3 should be there, even if it's blank)
+
+            The format of the dot-bracket file is
+            
+         
         The number after the name of the file indicates the sequence of executed files. 
         i.e. for a single entry, it will show stem_loop1.csv, 
         and for two entries, it will show stem_loop1.csv for first entry & stem_loop2.csv for the second entry.
