@@ -10,7 +10,7 @@ However, this software can be used to calculate ti/tv for the secondary structur
 
 
 # Citation:
-Please add a citation below if this article informs or supports your subsequent research.
+Please add a citation (provided below) if this article informs or supports your subsequent research.
 
 "Dash M, Meher P, Aditya Kumar, Satapathy SS, Namsa ND. 2024. High frequency of transition to transversion ratio in the stem region of RNA secondary structure of untranslated       region of SARS-CoV-2. PeerJ 12:e16962 https://doi.org/10.7717/peerj.16962"
 # Installation
