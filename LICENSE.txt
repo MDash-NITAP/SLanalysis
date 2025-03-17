@@ -6,7 +6,7 @@ This License applies to this original work of authorship (the "Original Work") w
 
 3) "Derivative Works" can be created based upon the Original Work, either alone or as part of a collective work;
 
-4) User should cite the journal "Madhusmita Dash et al. 2024, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 untranslated regions" to use this software.
+4) User should cite the journal "Dash M, Meher P, Aditya Kumar, Satapathy SS, Namsa ND. 2024. High frequency of transition to transversion ratio in the stem region of RNA secondary structure of untranslated region of SARS-CoV-2. PeerJ 12:e16962 https://doi.org/10.7717/peerj.16962" to use this software.
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the software.
 
