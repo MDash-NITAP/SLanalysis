@@ -5,7 +5,8 @@ Thank you for your kind interest in my research work. This document includes the
 The objective of this software is to calculate ti/tv ratio of the secondary structure from its sequence file.
 
 # The Purpose and Journey of the Software:
-This software is developed to evaluate ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2024, High frequency of transition to transversion ratio in the stem region of RNA secondary structure of untranslated region of SARS-CoV-2."
+This software is developed to evaluate ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2024, High frequency of transition to transversion ratio in the stem region of RNA secondary structure of untranslated region of SARS-CoV-2. https://doi.org/10.7717/peerj.16962"
+However, this software can be used to calculate ti/tv for the secondary structure of any organism.
 
 
 # Citation:
