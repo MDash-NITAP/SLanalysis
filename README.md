@@ -1,8 +1,22 @@
+Thank you for your kind interest in my research work. This document includes the instructions for software installation and its operational guidelines.
+
+
+# What is SLanalysis:
+The objective of this software is to calculate ti/tv ratio of the secondary structure from its sequence file.
+
+# The Purpose and Journey of the Software:
+This software is developed to evaluate ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2024, High frequency of transition to transversion ratio in the stem region of RNA secondary structure of untranslated region of SARS-CoV-2."
+
+
+# Citation:
+Please add a citation below if this article informs or supports your subsequent research.
+
+"Dash M, Meher P, Aditya Kumar, Satapathy SS, Namsa ND. 2024. High frequency of transition to transversion ratio in the stem region of RNA secondary structure of untranslated       region of SARS-CoV-2. PeerJ 12:e16962 https://doi.org/10.7717/peerj.16962"
 # Installation
 
 ## Approach- 1: Download Zip
    1. Go to the link https://github.com/MDash-NITAP/SLanalysis.git
-   2. Select Download Zip option from the drop-down menu for Code<>
+   2. Select the Download Zip option from the drop-down menu for Code<>
    3. For downloading the "SLanalysis.exe" file:
       
       a. Select the exe file      
@@ -33,11 +47,6 @@ This repository contains an application file larger than 100MB. To download the 
    5. Run the application after successful cloning       
    6. The application opens up within a minute, creating a new folder named "Supplimentary".
 
-# SLanalysis
-This software evaluates ti/tv values for both the stem and loop region of SARS-CoV-2 genome sequence, as described in the paper "Madhusmita Dash et al. 2024, Higher transition to transversion ratio in the secondary structure stem motifs than the loops in the SARS-CoV-2 un-translated regions"
-
-# What is SLanalysis:
-The objective of this software is to calculate ti/tv ratio of the secondary structure from its sequence file.
 
 # How it works:
 One or more than one pair of files gets uploaded to the software., i.e.
